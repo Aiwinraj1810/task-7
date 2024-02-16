@@ -1,0 +1,50 @@
+body{
+    background-color: lightskyblue;
+}
+.container{
+    background-color: rgb(211, 234, 255);
+    padding: 1rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  
+}
+.button-space{
+   
+    text-align: right;
+}
+
+.main-container{
+    padding: 1rem;
+}
+.main-container *{
+    margin-right: 1rem;
+} 
+.main-container input{
+    border-radius: 8px;
+    border: none;
+    padding: 0.5rem 1rem;
+}
+.main-container select{
+    border-radius: 8px;
+    border: none;
+    padding: 0.5rem 1.5rem;
+}
+
+.main-container button{
+    border-radius: 8px;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+}
+
+.table-container{
+    border-radius: 10px;
+}
+
+
+.pagination-container{
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
